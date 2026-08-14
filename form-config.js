@@ -1,11 +1,11 @@
 (function exposeFormConfig(globalScope) {
   const formConfig = {
     startsAt: "2026-08-10T00:00:00-03:00",
-    expiresAt: "2026-08-20T23:59:59-03:00",
+    expiresAt: "2026-08-24T23:59:59-03:00",
     notStartedMessage:
       "El período de inscripción comienza el 11 de agosto de 2026",
     expiredMessage:
-      "El período de inscripción finalizó el 20 de agosto de 2026",
+      "El período de inscripción finalizó el 24 de agosto de 2026",
   };
 
   if (globalScope) {
